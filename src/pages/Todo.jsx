@@ -49,7 +49,7 @@ function Todo() {
 
       <ul>
         {todos.map((todo, key) => (
-          <Card text={todo} key={key} />
+          <Card todo={todo} key={key} />
         ))}
       </ul>
     </div>
