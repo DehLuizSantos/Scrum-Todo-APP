@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --principal-50: #8f2be5;
+  --principal-100: #df71fb;
+  --principal--500: #39166d;
+
+  --secondary-50: #7f64a8;
+  --secondary-100: #d2bee0;
+  --secondary--500: #302442;
+
+  --green-500: #04d361;
+
+  --focus-500: #302442;
+  --focus-400: #bcdcf6;
+  --focus-200: #f1f8fc;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%; //15px --> 93,75%=15px/16px; 1rem = 16px,
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%; //14px
+  }
+}
+
+body {
+  background-color: var(--principal-50);
+}
+
+body,
+input,
+textarea,
+button,
+a {
+  font: 500 1rem Inter, sans-serif;
+  color: var(--secondary-50);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  font-family: Lexend, sans-serif;
+  color: var(--secondary--500);
+}
+
+h1 {
+  font-size: 2rem; //32px
+}
+
+h2 {
+  font-size: 1.5rem; //24px
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
