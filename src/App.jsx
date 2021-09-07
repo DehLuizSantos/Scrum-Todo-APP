@@ -5,7 +5,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 
 import { AuthContextProvider } from "./context/AuthContext"; */
 
-import Todo from "./pages/Todo";
+import Todo from "./pages/Todo/index";
 
 function App() {
   return (

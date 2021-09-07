@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--principal--500);
+
+  .button {
+    margin-top: 20px;
+    border: 2px solid var(--focus-200);
+    border-radius: 30px;
+
+    button {
+      color: var(--focus-200);
+      font-size: 30px;
+      font-weight: 900;
+      padding: 10px;
+
+      svg {
+        margin: 5px;
+      }
+
+      &:hover {
+        color: var(--secondary-100);
+        transition: 1s;
+      }
+    }
+  }
+
+  .todos {
+    display: flex;
+    margin: 20px;
+    .todo {
+      width: 400px;
+      height: 600px;
+      margin: 10px;
+
+      display: flex;
+      flex-direction: column;
+
+      border: var(--focus-500) 1px solid;
+      border-radius: 30px;
+
+      background-color: var(--principal-50);
+
+      h2 {
+        margin-top: 10px;
+        text-align: center;
+        color: var(--focus-200);
+
+        svg {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+.modal {
+  .modalTodo {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+
+    border-radius: 30px;
+    border: 2px solid var(--focus-500);
+
+    background-color: white;
+    color: var(--secondary-50);
+
+    .MuiButton-root {
+      color: var(--secondary--500);
+      border: solid 2px var(--secondary--500);
+      border-radius: 20px;
+
+      background-color: var(--principal-50);
+    }
+  }
+}

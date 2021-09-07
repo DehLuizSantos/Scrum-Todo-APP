@@ -2,8 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--principal-100);
   .moralEdit {
     width: 400px;
-    border: red 2px solid;
+    height: 200px;
   }
 }
